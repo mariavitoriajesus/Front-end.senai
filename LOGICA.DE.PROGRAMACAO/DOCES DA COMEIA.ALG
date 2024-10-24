@@ -4,7 +4,8 @@ Algoritmo "Doces da Comeia"
 // Data atual  : 24/10/2024
 Var
 // Seção de Declarações das variáveis 
-opcao : inteiro
+opcao : caractere
+
 
 
 Inicio
@@ -19,7 +20,8 @@ escreval("6 - PUDIM                     R$ 25,00")
 escreval("7 - CANCELAR COMPRA")
 escreval("8 - CARRINHO")
 
+leia(opcao)
 
-leia(opção)
+
 
 Fimalgoritmo
