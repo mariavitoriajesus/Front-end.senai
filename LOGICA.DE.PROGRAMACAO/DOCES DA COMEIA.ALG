@@ -5,7 +5,7 @@ Algoritmo "Doces da Comeia"
 Var
 // Seção de Declarações das variáveis 
 opcao : caractere
-
+valorTotal : real
 
 
 Inicio
@@ -22,6 +22,35 @@ escreval("8 - CARRINHO")
 
 leia(opcao)
 
+escolha(opcao)
+caso "1"
+     escreval("Item adicionado ao carrinho!")//trufa
+     valorTotal <- ValorTotal + 8
+     escreval("Valor total do carrinho: ", valorTotal
+caso"2"
+       escreval("Item adicionado ao carrinho!")//bolo no pote
+     valorTotal <- ValorTotal + 10
+     escreval("Valor total do carrinho: ", valorTotal
+caso "3"
+     escreval("Item adicionado ao carrinho!")//copo da felidade
+     valorTotal <- ValorTotal + 15
+     escreval("Valor total do carrinho: ", valorTotal
+caso "4"
+     escreval("Item adicionado ao carrinho!")//bombom
+     valorTotal <- ValorTotal + 5
+     escreval("Valor total do carrinho: ", valorTotal
+caso "5"
+     escreval("Item adicionado ao carrinho!")//docinhos
+     valorTotal <- ValorTotal + 3
+     escreval("Valor total do carrinho: ", valorTotal
+caso "6"
+     escreval("Item adicionado ao carrinho!")//Pudim
+     valorTotal <- ValorTotal + 25
+     escreval("Valor total do carrinho: ", valorTotal
+caso "7"
+     escreval("Compra cancelada!!")
+outrocaso
+         escreval("Op~çao invalida!!")
 
 
 Fimalgoritmo
