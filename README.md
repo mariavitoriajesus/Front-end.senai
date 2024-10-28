@@ -22,7 +22,7 @@ Olá! 👋 Eu sou Maria Vitória, um desenvolvedor apaixonado por Desenvolviment
 
 - LinkedIn: Maria Vitória Jesus(https://www.linkedin.com/in/mariavitoriajesus)
 - GitHub: Maria Vitória(https://github.com/mariavitoriajesus)
-- E-mail: mariavitoria.jesus2003@gmail.com (mariavitoria.jesus2003@gmail.com)
+- E-mail: mariavitoria.jesus2003@gmail.com 
 
 ---
 
