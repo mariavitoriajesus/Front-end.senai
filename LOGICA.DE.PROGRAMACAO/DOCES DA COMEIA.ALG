@@ -7,6 +7,16 @@ Var
 opcao : caractere
 valorTotal : real
 
+Procedimento adcionadoAoCarrinho(vp : real)
+             VAR
+             nomep : caractere
+            INICIO
+     escreval("Digite o nome do produto: ")
+     leia}(nomep)
+     escreval("Item adicionado ao carrinho: ", nomep)
+     valorTotal <- ValorTotal + vp
+     escreval("Valor total do carrinho: ", valorTotal)
+fimProcedimento
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -24,33 +34,21 @@ leia(opcao)
 
 escolha(opcao)
 caso "1"
-     escreval("Item adicionado ao carrinho!")//trufa
-     valorTotal <- ValorTotal + 8
-     escreval("Valor total do carrinho: ", valorTotal
+     adcionadoAoCarrinho(8)//TRUFA
 caso"2"
-       escreval("Item adicionado ao carrinho!")//bolo no pote
-     valorTotal <- ValorTotal + 10
-     escreval("Valor total do carrinho: ", valorTotal
+      adcionadoAoCarrinho(10)//BOLO NO POTE
 caso "3"
-     escreval("Item adicionado ao carrinho!")//copo da felidade
-     valorTotal <- ValorTotal + 15
-     escreval("Valor total do carrinho: ", valorTotal
+     adcionadoAoCarrinho(15)//COPO DA FELICIDADE
 caso "4"
-     escreval("Item adicionado ao carrinho!")//bombom
-     valorTotal <- ValorTotal + 5
-     escreval("Valor total do carrinho: ", valorTotal
+     adcionadoAoCarrinho(5)//BOMBOM
 caso "5"
-     escreval("Item adicionado ao carrinho!")//docinhos
-     valorTotal <- ValorTotal + 3
-     escreval("Valor total do carrinho: ", valorTotal
+     adcionadoAoCarrinho(3)//DOCINHOS
 caso "6"
-     escreval("Item adicionado ao carrinho!")//Pudim
-     valorTotal <- ValorTotal + 25
-     escreval("Valor total do carrinho: ", valorTotal
+     adcionadoAoCarrinho(25)//PUDIM
 caso "7"
      escreval("Compra cancelada!!")
 outrocaso
-         escreval("Op~çao invalida!!")
-
+         escreval("OpCao invalida!!")
+fimEscolha
 
 Fimalgoritmo

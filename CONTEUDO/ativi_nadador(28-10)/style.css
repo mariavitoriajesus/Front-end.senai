@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f8ff; /* Azul bebê */
+    color: #000000; /* Preto para o texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4682b4; /* Azul mais escuro para o título */
+    text-align: center;
+    margin-top: 20px;
+}
+
+label, p {
+    margin: 10px;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #4682b4;
+    border-radius: 5px;
+    background-color: #ffffff; /* Branco para inputs e botão */
+    color: #4682b4; /* Azul mais escuro para o texto do botão */
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b0e0e6; /* Efeito hover azul bebê */
+}
