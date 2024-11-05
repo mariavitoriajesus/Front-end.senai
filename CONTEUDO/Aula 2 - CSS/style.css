@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    background-color: #FFEAC5;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+h1 {
+    color: #664343;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+h2 {
+    color: #6C4E31;
+    background-color: #A67B5B;
+}
+
+img{
+    /* largura */
+    width: 400px;
+    /* altura */
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #C39898;
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
