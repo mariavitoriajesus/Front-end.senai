@@ -1,0 +1,17 @@
+body {
+    background-color: #8B93FF; 
+}
+
+#Titulo {
+    color: #5755FE; 
+    font-size: 50px;
+}
+
+.Categoria {
+    font-size: 40px;
+}
+
+.Explicação {
+    font-size: 14px;
+    color: #151515; 
+}
