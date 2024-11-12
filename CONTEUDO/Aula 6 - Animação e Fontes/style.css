@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.caixa {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#caixa1 {
+    background-color: #432E54;
+    transition: 0.75s;
+}
+
+#caixa1:hover {
+    border-radius: 100%;
+    transition: 0.5s;
+    animation: 1s animacao infinite;
+}
+
+#caixa2 {
+    background-color: #4B4376;
+    transition: 0.5s;
+}
+
+#caixa2:active {
+    background-color: #1c192c;
+    width: 80%;
+    transition: 0.5s;
+}
+
+#caixa3 {
+    background-color: #AE445A;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.75s; /* don't forget to set a duration! */
+}
+
+#caixa4 {
+    background-color: #E8BCB9;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeOutDownBig; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.75s; /* don't forget to set a duration! */
+}
+
+@keyframes identifier {
+    
+}
