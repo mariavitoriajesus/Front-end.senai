@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    
+    font-family: "Playwrite AU TAS", cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFECAF;
+}
+
+header {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF52A2;
+    color: #FFECAF;
+}
+
+#logs {
+    text-align: right;
+    margin-right: 20px;
+    background-color: #FF52A2;
+}
+
+
+#cabecalho ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #FF52A2;
+}
+
+#cabecalho ul li {
+    margin: 0 15px;
+}
+
+#cabecalho ul li a {
+    color: #FFECAF;
+    text-decoration: none;
+    background-color: #FF52A2;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #FFB07F;
+    border-radius: 50px;
+}
+
+.container img {
+    width: 80%;
+    border-radius: 50px;
+    /* margin-right: 10px; */
+}
+
+#sobre h2 {
+    text-align: center;
+}
+
+#footer {
+    background-color: #F31559;
+    margin-top: 25px;
+    margin-right: 10px;
+    align-items: center;
+}
+
