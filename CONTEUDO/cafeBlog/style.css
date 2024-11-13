@@ -3,7 +3,6 @@
 * {
     padding: 0%;
     margin: 0%;
-    
     font-family: "Playwrite AU TAS", cursive;
 }
 
@@ -69,6 +68,7 @@ header {
 }
 
 #footer {
+    font-size: small;
     background-color: #F31559;
     margin-top: 25px;
     margin-right: 10px;
