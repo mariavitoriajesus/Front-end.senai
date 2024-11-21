@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: #E8ECD7;
+}
+
+:root {
+    --corPrimaria: #DE7C7D;
+    --corSegundaria: #EED3B1;
+    --branco: white;
+}
+
+header, footer {
+    background-color: var(--corPrimaria);
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+#logo {
+    display: flex;
+    gap: 20px;
+}
+
+#logo img {
+    width: 30pxe;
+}
+
+#catalogo {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.livros {
+    width: 200px;
+    padding: 5px;
+    background-color: var(--corSegundaria);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    padding: 5px;
+}
+
+.livros img {
+    width: 80%;
+}
