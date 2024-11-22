@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: #D95F59;
+    color: white;
+}
+
+:root {
+    --corPrimaria: #C63C51;
+    --corSegundaria: #8C3061;
+    --branco: #522258;
+}
+
+header, footer {
+    background-color: var(--corPrimaria);
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+#logo {
+    display: flex;
+    gap: 20px;
+}
+
+#logo img {
+    width: 30pxe;
+}
+
+#catalogo {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filmes {
+    width: 200px;
+    padding: 5px;
+    background-color: var(--corSegundaria);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.filmes img {
+    width: 80%;
+}
+
+button {
+    display: flex;
+    padding: 5px;
+}
+

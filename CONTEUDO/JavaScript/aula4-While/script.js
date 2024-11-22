@@ -17,14 +17,14 @@ function carregarCatalogo() {
 
   livros.forEach(cadaLivro => {
     document.getElementById(`catalogo`).innerHTML += `
-         <div class="livros">
-                <img src="${cadaLivro[0]}" alt="">
-                <h4>${cadaLivro[1]}</h4>
-                <button>
-                    Adicionar
-                    <img src="icons/plus.svg" alt="">
-                </button>
-            </div>
+          <div class="livros">
+                  <img src="${cadaLivro[0]}" alt="">
+                  <h4>${cadaLivro[1]}</h4>
+                  <button>
+                      Adicionar
+                      <img src="icons/plus.svg" alt="">
+                  </button>
+              </div>
         `
   })
 }
