@@ -42,7 +42,7 @@ fruta.push('abacaxi')
 
 for (let i = 0; i < fruta.length; i++) {
     document.getElementById('resposta').innerHTML += `
-    ${fruta[i]} <br>
+    ${fruta[i]} <br                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 >
     `
 }
 
@@ -52,4 +52,4 @@ fruta.forEach(cadaFruta => {
     document.getElementById('resposta').innerHTML += `
     ${cadaFruta} <br>
     `
-});
+}); 
