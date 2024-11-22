@@ -14,21 +14,3 @@ function carregarCatalogo() {
 }
 
 carregarCatalogo()
-
-// enquanto condição faça
-// para de tanto ate tanto faça
-
-//repetição em loop
-// while (contador < 3) {
-//     alert(`E o que vey? ${contador} !! Repete ai!`)
-//     contador++
-// }
-
-
-// function test() {
-//   contador = 0;
-//   for (var i = 0; i < 3; i++) {
-//     alert(`Deu certo ${i + i} corre pra alegriiiaa`);
-//   }
-// }
-// test()
