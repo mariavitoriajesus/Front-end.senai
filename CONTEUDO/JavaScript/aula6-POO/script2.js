@@ -9,7 +9,7 @@ class usuario {
         this.postar = function (pensamentos) {
             document.querySelector('#resposta').innerHTML= `
             
-    <div id="post">
+    <div class="post">
         <h3>${this.nickName}</h3>
          <p>${pensamentos}</p>
     </div>
