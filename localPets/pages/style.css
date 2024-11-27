@@ -50,8 +50,8 @@ header nav a:hover {
 
 /* MAIN */
 main {
-  /* background-color: #ffeead; */
-  padding: 40px;
+  background-color: #DE8F5F;
+  /* padding: 40px; */
   border: 5px solid #a35c32;
   display: flex;
   justify-content: center;
@@ -121,4 +121,137 @@ main {
 footer {
     background-color: #96CEB4;
     text-align: center;
+}
+
+/* PÁGINA DE LOGIN */
+
+.main-login {
+  width: 85%;
+  height: 750px;
+  background-color: #A66E38;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45px;
+}
+
+.left-login {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-login h1{
+  color: #96CEB4;
+  font-size: 3vh;
+}
+
+.left-login-image {
+  width: 35vw;
+}
+
+.right-login {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 35px;
+  background-color: #FFAD60;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #FFEEAD;
+}
+
+.card-login h1 {
+  color: white;
+  font-weight: 800;
+  padding: 0;
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #96CEB4;
+  color: #fff5cf;
+  font-size: 12pt;
+  box-shadow: 0px 10px 48px #FFEEAD;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield label {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.textfield input::placeholder {
+  color: #66a788;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: white;
+  background-color: #A66E38;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #FFEEAD;
+}
+
+@media only screen and (max-width: 950px){
+  .card-login {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .main-login {
+    flex-direction: column;
+  }
+  .left-login h1 {
+    display: none;
+  }
+  .left-login {
+    width: 100%;
+    height: auto;
+  }
+  .right-login{
+    width: 100%;
+    height: auto;
+  }
+  .left-login-image{
+    width: 50vh;
+  }
+  .card-login{
+    width: 90%;
+  }
 }
