@@ -48,7 +48,7 @@ header nav a:hover {
   color: #005f5f;
 }
 
-/* MAIN */
+/* MAIN - PÁGINA PLANOS  */
 main {
   background-color: #DE8F5F;
   /* padding: 40px; */
@@ -58,72 +58,6 @@ main {
   align-items: center;
   min-height: 100vh;
 }
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 100%;
-  align-items: flex-start;
-}
-
-.content {
-  max-width: 500px;
-  flex: 1;
-}
-
-.content h1 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  color: #333;
-}
-
-.content p {
-  font-size: 16p;
-  color: #666;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-.order-button {
-  background-color: #a35c32;
-  color: #ffffff;
-  border: none;
-  padding: 12px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 10px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.order-button:hover {
-  background-color: #8b4c28;
-}
-
-.imgs {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-
-.imgs .main-img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-footer {
-    background-color: #96CEB4;
-    text-align: center;
-}
-
-/* PÁGINA DE LOGIN */
 
 .main-login {
   width: 85%;
@@ -227,6 +161,22 @@ footer {
   box-shadow: 0px 10px 40px -12px #FFEEAD;
 }
 
+.bnt-cadastrar {
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: white;
+  background-color: #A66E38;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #FFEEAD;
+}
+
 @media only screen and (max-width: 950px){
   .card-login {
     width: 85%;
@@ -255,3 +205,21 @@ footer {
     width: 90%;
   }
 }
+
+
+/* FOOTER  */
+
+footer {
+  background-color: #96CEB4;
+  color: #fff5cf;
+  text-align: center;
+}
+  
+
+footer .social-media {
+/* position: absolute; */
+right: 500px;
+top: 40px;
+margin: 0px;
+} 
+
