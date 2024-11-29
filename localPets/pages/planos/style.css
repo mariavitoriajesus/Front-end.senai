@@ -50,9 +50,9 @@ header nav a:hover {
 
 /* MAIN - PÁGINA PLANOS  */
 main {
-  background-color: #DE8F5F;
+  background-color: #de905f67;
   /* padding: 40px; */
-  border: 5px solid #a35c32;
+  border: 5px solid #a35b325d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,7 +214,13 @@ footer {
   color: #fff5cf;
   text-align: center;
 }
-  
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+  margin-left: 10px;
+}
 
 footer .social-media {
 /* position: absolute; */
