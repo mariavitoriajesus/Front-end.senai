@@ -9,22 +9,9 @@ body, html {
   font-family: "Onest", sans-serif;
   background-color: #f8f8f8;
   box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
 }
-
-section .about-home {
-    height: calc(100% - 200px);
-    position: relative;
-  }
-  
-  .content-home {
-    position: absolute;
-    bottom: -79px;
-    right: -189px;
-    width: 870px;
-    height: 752px;
-    border-radius: 50%;
-    background-color: #FCFAEE;
-  }
   
   /* HEADER */
 header {
@@ -62,23 +49,6 @@ header {
   header nav a:hover {
     color: #005f5f;
   }
-
-  .order-button {
-    background-color: #a35c32;
-    color: #ffffff;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  .order-button:hover {
-    background-color: #8b4c28;
-  }
   
   .imgs {
     display: flex;
@@ -93,6 +63,67 @@ header {
     height: auto;
     border-radius: 10px;
   }
+
+/* MAIN  */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+section .about-home {
+  height: calc(100% - 200px);
+  position: relative;
+  background-color: #96ceb494;
+}
+
+.content-home {
+  position: absolute;
+  bottom: -79px;
+  right: -189px;
+  width: 870px;
+  height: 752px;
+  border-radius: 50%;
+  background-color: #96ceb494;
+}
+
+.about-text {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about-text h1 {
+  font-size: 50px;
+}
+
+.about-text p {
+  margin: 20px 0px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 800px;
+}
+
+.about-text button {
+  background-color: #a35c32;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ 
+.about-text button:hover {
+  background-color: #8b4c28;
+}
   
 /* FOOTER  */
 
